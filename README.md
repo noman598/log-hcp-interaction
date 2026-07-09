@@ -19,6 +19,10 @@ This is built for a demo / prototype, not production:
   into the existing form state.
 - **DB:** Postgres (a single `interactions` table storing the saved form as JSONB).
 
+## System Architecture
+
+<img width="2000" height="1200" alt="architecture_diagram" src="https://github.com/user-attachments/assets/b1af1dfa-8b0b-41cd-8bc8-6a4dbd4dbb84" />
+
 ## Project layout
 
 ```
