@@ -1,0 +1,22 @@
+version: "3.8"
+
+# Demo-only: spins up just Postgres so you don't need to install it
+# locally. Run the FastAPI backend and Vite frontend directly with
+# uvicorn/npm as described in the README - no need to containerize
+# those for a quick demo.
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: hcp_logger_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: hcp_logger
+      POSTGRES_USER: hcp_user
+      POSTGRES_PASSWORD: hcp_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - hcp_logger_pgdata:/var/lib/postgresql/data
+
+volumes:
+  hcp_logger_pgdata:
