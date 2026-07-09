@@ -23,6 +23,11 @@ This is built for a demo / prototype, not production:
 
 <img width="2000" height="1200" alt="architecture_diagram" src="https://github.com/user-attachments/assets/b1af1dfa-8b0b-41cd-8bc8-6a4dbd4dbb84" />
 
+<img width="1301" height="717" alt="image" src="https://github.com/user-attachments/assets/a33ce7e0-5f89-48a9-9bf7-bc9adcc862cd" />
+
+<img width="1913" height="1001" alt="image" src="https://github.com/user-attachments/assets/21e89b4c-e285-4596-a97d-86c3e95025cb" />
+
+
 ## Project layout
 
 ```
